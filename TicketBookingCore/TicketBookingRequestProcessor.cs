@@ -3,7 +3,7 @@ namespace TicketBookingCore.Tests
 {
     public class TicketBookingRequestProcessor
     {
-        public TicketBookingRequestProcessor()
+        public TicketBookingRequestProcessor(ITicketBookingRepository ticketBookingRepository)
         {
         }
 
